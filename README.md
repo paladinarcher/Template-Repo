@@ -10,7 +10,9 @@ Description of accelorator goes here.
 ## Examples: 
 Show examples of your accelorator here. 
   Links work like this  [markdown reference](https://commonmark.org/help/)
-  Images work like this  ![Image](https://pixabay.com/images/id-221568/)
-
+  Images work like this ![Image][1]
+    ⋮
+    [1]: http://url/b.jpg
+    
 ## Instructions:
 Instructions for how to use the accelorator. 
