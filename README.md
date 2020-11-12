@@ -1,9 +1,6 @@
-# Template-Repo
-Template repository of accelerators.
+# Title
+Description: Template repository of accelerators.
 
 
-Header 1
-========
 
-Header 2
-________
+[markdown reference] (https://commonmark.org/help/)
