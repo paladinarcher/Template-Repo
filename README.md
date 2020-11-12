@@ -9,8 +9,8 @@ Description of accelorator goes here.
 
 ## Examples: 
 Show examples of your accelorator here. 
-  Links work like this - [markdown reference](https://commonmark.org/help/)
-  Images work like this - ![Image](http://url/a.png)
+  Links work like this  [markdown reference](https://commonmark.org/help/)
+  Images work like this  ![Image](http://url/a.png)
 
 ## Instructions:
 Instructions for how to use the accelorator. 
