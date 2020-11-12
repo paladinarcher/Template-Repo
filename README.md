@@ -8,8 +8,8 @@ Description of accelorator goes here.
   3. How is it used
 
 ## Examples: 
-Show examples of your accelorator here. 
-  Links work like this  [markdown reference](https://commonmark.org/help/)
+Show examples of your accelorator here.  
+  Links work like this [markdown reference](https://commonmark.org/help/)
     
 ## Instructions:
 Instructions for how to use the accelorator. 
