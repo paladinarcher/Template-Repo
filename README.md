@@ -13,3 +13,6 @@ Show examples of your accelerator here.
     
 ## Instructions:
 Instructions for how to use the accelerator. 
+
+## Additional Information
+Add any additional information here or delete this section.
