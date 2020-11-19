@@ -65,7 +65,7 @@
 
 <p align="center">
 	* Image goes here
-	<img src="" 
+	<img src="https://github.com/paladinarcher/padawan/blob/master/Logo%20Pack/PNG/redcirclesm300x300.png" 
 	     width="550"
 	>
 </p>
