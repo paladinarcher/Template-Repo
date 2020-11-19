@@ -1,3 +1,16 @@
+<h2>Set up for new project. Delete afterwards</h2>
+1. - [ ] Create Kanban Columns -Funnel->Analysis & Exploration->Backlog->In Progress->Review & Test->Done->Closed
+
+2. - [ ] Create Workspace
+
+3. - [ ] Set up the project in Zenhub
+
+4. - [ ] Set up milestones in Zenhub
+
+5. - [ ] Copy over wiki template
+
+
+
 <h1 align="center">
 	<img
 		width="300"
