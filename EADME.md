@@ -1,74 +1,90 @@
-# Project name
+<h1 align="center">
+	<img
+		width="300"
+		alt="The Lounge"
+		src="https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true"> 
+  -Logo goes Here
+</h1>
 
-<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
-![GitHub contributors](https://img.shields.io/github/contributors/scottydocs/README-template.md)
-![GitHub stars](https://img.shields.io/github/stars/scottydocs/README-template.md?style=social)
-![GitHub forks](https://img.shields.io/github/forks/scottydocs/README-template.md?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/scottydocs?style=social)
+<h3 align="center">
+	Modern web IRC client designed for self-hosting
+</h3>
 
-Project name is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+<p align="center">
+	<strong>
+		<a href="https://thelounge.chat/">Website</a>
+		•
+		<a href="https://thelounge.chat/docs">Docs</a>
+		•
+		<a href="https://demo.thelounge.chat/">Demo</a>
+	</strong>
+</p>
+<p align="center">
+	<a href="https://demo.thelounge.chat/"><img
+		alt="#thelounge IRC channel on freenode"
+		src="https://img.shields.io/badge/freenode-%23thelounge-415364.svg?colorA=ff9e18"></a>
+	<a href="https://yarn.pm/thelounge"><img
+		alt="npm version"
+		src="https://img.shields.io/npm/v/thelounge.svg?colorA=333a41&maxAge=3600"></a>
+	<a href="https://github.com/thelounge/thelounge/actions"><img
+		alt="Build Status"
+		src="https://github.com/thelounge/thelounge/workflows/Build/badge.svg"></a>
+	<a href="https://npm-stat.com/charts.html?package=thelounge&from=2016-02-12"><img
+		alt="Total downloads on npm"
+		src="https://img.shields.io/npm/dy/thelounge.svg?colorA=333a41&colorB=007dc7&maxAge=3600&label=Downloads"></a>
+</p>
 
-Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
+<p align="center">
+	<img src="https://raw.githubusercontent.com/thelounge/thelounge.github.io/master/img/thelounge-screenshot.png" width="550">
+</p>
 
-## Prerequisites
+## Overview
 
-Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
+- **Modern features brought to IRC.** Push notifications, link previews, new message markers, and more bring IRC to the 21st century.
+- **Always connected.** Remains connected to IRC servers while you are offline.
+- **Cross platform.** It doesn't matter what OS you use, it just works wherever Node.js runs.
+- **Responsive interface.** The client works smoothly on every desktop, smartphone and tablet.
+- **Synchronized experience.** Always resume where you left off no matter what device.
 
-## Installing <project_name>
+To learn more about configuration, usage and features of The Lounge, take a look at [the website](https://thelounge.chat).
 
-To install <project_name>, follow these steps:
+The Lounge is the official and community-managed fork of [Shout](https://github.com/erming/shout), by [Mattias Erming](https://github.com/erming).
 
-Linux and macOS:
+## Installation and usage
+
+The Lounge requires latest [Node.js](https://nodejs.org/) LTS version or more recent.
+[Yarn package manager](https://yarnpkg.com/) is also recommended.  
+If you want to install with npm, `--unsafe-perm` is required for a correct install.
+
+### Running stable releases
+
+Please refer to the [install and upgrade documentation on our website](https://thelounge.chat/docs/install-and-upgrade) for all available installation methods.
+
+### Running from source
+
+The following commands install and run the development version of The Lounge:
+
+```sh
+git clone https://github.com/thelounge/thelounge.git
+cd thelounge
+yarn install
+NODE_ENV=production yarn build
+yarn start
 ```
-<install_command>
-```
 
-Windows:
-```
-<install_command>
-```
-## Using <project_name>
+When installed like this, `thelounge` executable is not created. Use `node index <command>` to run commands.
 
-To use <project_name>, follow these steps:
+⚠️ While it is the most recent codebase, this is not production-ready! Run at
+your own risk. It is also not recommended to run this as root.
 
-```
-<usage_example>
-```
+## Development setup
 
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
+Simply follow the instructions to run The Lounge from source above, on your own
+fork.
 
-## Contributing to <project_name>
-<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
-To contribute to <project_name>, follow these steps:
+Before submitting any change, make sure to:
 
-1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-## Contributors
-
-Thanks to the following people who have contributed to this project:
-
-* [@scottydocs](https://github.com/scottydocs) 📖
-* [@cainwatson](https://github.com/cainwatson) 🐛
-* [@calchuchesta](https://github.com/calchuchesta) 🐛
-
-You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
-
-## Contact
-
-If you want to contact me you can reach me at <your_email@address.com>.
-
-## License
-<!--- If you're not sure which open license to use see https://choosealicense.com/--->
-
-This project uses the following license: [<license_name>](<link>).
+- Read the [Contributing instructions](https://github.com/thelounge/thelounge/blob/master/.github/CONTRIBUTING.md#contributing)
+- Run `yarn test` to execute linters and test suite
+- Run `yarn build` if you change or add anything in `client/js` or `client/views`
+- `yarn dev` can be used to start The Lounge with hot module reloading
