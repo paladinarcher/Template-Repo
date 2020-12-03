@@ -2,8 +2,8 @@
 Copiable issues, wikis, & templates for new project setup
 
 ## Instructions
-Copy each item into its own issue, wiki, or template appropriately at the beginning of project.
- -to copy click on raw on the top right corner of this document. 
+Copy each item into its own issue, wiki, or template appropriately at the beginning of project.  
+ **-** To copy click on raw on the top right corner of this document. 
 
 ## Current Copiables
 1. New Project Setup Steps  
