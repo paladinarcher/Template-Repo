@@ -23,10 +23,9 @@ Copy each item into its own issue, wiki, or template appropriately at the beginn
 <h2> End of Set up.</h2>
 
 <h2> Continuous Testing Checklist </h2> 
-Show examples of your accelerator here.  
-  Links work like this [markdown reference](https://commonmark.org/help/)
     
 ## Assess
+
 ### Capacity 
 - [ ] available time?
 
@@ -108,3 +107,5 @@ Show examples of your accelerator here.
 - [ ] **develop items according to plan, as part of your normal process**
 
 <h2> End of Continuous Testing Checklist </h2> 
+
+Links work like this [markdown reference](https://commonmark.org/help/)
