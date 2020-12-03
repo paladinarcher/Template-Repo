@@ -1,5 +1,5 @@
-# Title of Accelerator
-One Line of information about accelerator
+# Issues, Wikis, & Templates
+Copiable issues, wikis, & templates for new project setup
 
 ## Description of Accelerator
 Description of accelerator goes here. 
