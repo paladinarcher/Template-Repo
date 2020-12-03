@@ -1,4 +1,4 @@
-# For initial project set up click **[here](Set-UP.md)**. Delete this line afterwards
+# For initial project set up click **[here](SET-UP.md)**. Delete this line afterwards
 
 * logo(optional) goes here
 <h1 align="center">
