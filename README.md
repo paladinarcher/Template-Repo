@@ -10,7 +10,7 @@
 
 5. - [ ] Copy over wiki template
 
-For initial project setup click [here](Set-UP.md)
+For initial project set up click [here](Set-UP.md)
 <h2> End of Set up. To be deleted.</h2>
 
 * logo(optional) goes here
